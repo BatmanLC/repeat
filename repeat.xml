@@ -50,11 +50,6 @@
                                         <field name="VAR">delayCount</field>
                                       </block>
                                     </value>
-                                    <value name="B">
-                                      <block type="math_number" id="538">
-                                        <field name="NUM">200</field>
-                                      </block>
-                                    </value>
                                   </block>
                                 </value>
                                 <next>
@@ -104,5 +99,8 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="math_number" id="538" x="87" y="15">
+    <field name="NUM">200</field>
   </block>
 </xml>
